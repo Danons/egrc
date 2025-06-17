@@ -1,0 +1,12 @@
+div.my-alert {
+  width: var(--tw-size-24);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+div.my-alert > div {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--tw-color-pink-500) / var(--tw-bg-opacity));
+  border-radius: var(--tw-border-radius-default);
+  height: var(--tw-size-10);
+}
